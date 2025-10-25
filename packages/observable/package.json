@@ -66,5 +66,6 @@
         "default": "./dist/commonjs/index.js"
       }
     }
-  }
+  },
+  "module": "./dist/esm/index.js"
 }
