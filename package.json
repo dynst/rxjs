@@ -24,8 +24,8 @@
   "devDependencies": {
     "@nx/eslint-plugin": "17.3.2",
     "@nx/js": "17.3.2",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
     "cz-conventional-changelog": "1.2.0",
     "eslint": "^8.56.0",
     "husky": "^4.2.5",
@@ -57,4 +57,3 @@
     "*.{js,css,md}": "prettier --write"
   }
 }
-
