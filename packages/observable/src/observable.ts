@@ -548,7 +548,7 @@ declare global {
  * A representation of any set of values over any amount of time. This is the most basic building block
  * of RxJS.
  */
-export class Observable<T> implements Subscribable<T> {
+export class Observable<T = void> implements Subscribable<T> {
   /**
    * @param subscribe The function that is called when the Observable is
    * initially subscribed to. This function is given a Subscriber, to which new values
