@@ -236,7 +236,7 @@ export interface SubscriberOverrides<T> {
  * `unsubscribe`. Subscriber is a common type in RxJS, and crucial for
  * implementing operators, but it is rarely used as a public API.
  */
-export class Subscriber<T> extends Subscription implements Observer<T> {
+export class Subscriber<T = void> extends Subscription implements Observer<T> {
   /** @internal */
   protected isStopped: boolean = false;
   /** @internal */
