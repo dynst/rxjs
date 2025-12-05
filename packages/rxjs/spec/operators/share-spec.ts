@@ -634,7 +634,7 @@ describe('share', () => {
 
   describe('share(config)', () => {
     it('should use the connector function provided', () => {
-      const connector = spy(() => new Subject());
+      const connector = spy(() => new Subject<string>());
 
       rxTest.run(({ hot, expectObservable }) => {
         const source = hot('  ---v---v---v---E--v---v---v---C---v----v--------v----v---');
